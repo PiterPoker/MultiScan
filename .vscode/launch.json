@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DEBUG: MultiScan",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build:debug",
+            "program": "${workspaceFolder}/bin/Debug/net9.0/MultiScan.dll",
+            //"args": ["--task", "Task2","--directory", "E:\\", "--searchpattern", "Arch*.cs", "--all", "false"],
+            //"args": ["--task", "Task1","--count", "20", "--minprice", "50", "--maxprice", "2000"],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
