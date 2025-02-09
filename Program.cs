@@ -50,6 +50,6 @@ class Program
             // Handle exceptions and display an error message.
             Console.WriteLine(string.Format("Error: {0}", ex.Message));
         }
-        Console.ReadKey();
+        Console.ReadLine();
     }
 }
